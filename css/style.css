@@ -1,0 +1,45 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%; }
+
+ul.accordion {
+  list-style: none; }
+  ul.accordion li {
+    display: block;
+    background-color: lightgray;
+    width: 100%;
+    border: 1px solid gray; }
+    ul.accordion li button {
+      width: 100%;
+      border: transparent;
+      padding: 15px; }
+    ul.accordion li div {
+      padding: 15px; }
+
+.tab-control {
+  background-color: tomato;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  float: left; }
+  .tab-control .icon {
+    float: left; }
+    .tab-control .icon img {
+      width: 44px; }
+  .tab-control .tab-title {
+    font-size: 18px;
+    float: left;
+    padding: 14px 0 0 10px; }
+
+.tab-content {
+  float: left;
+  width: 100%; }
+
+.active img {
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(90deg); }
+
+/*# sourceMappingURL=style.css.map */

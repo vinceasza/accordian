@@ -1,0 +1,53 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+ul.accordion {
+  list-style: none;
+  li {
+    display: block;
+    background-color: lightgray;
+    width: 100%;
+    border: 1px solid gray;
+    button {
+      width: 100%;
+      border: transparent;
+      padding: 15px;
+    }
+    div {
+      padding: 15px;
+
+    }
+  }
+}
+
+.tab-control {
+  background-color: tomato;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  float: left;
+  .icon {
+    float: left;
+
+    img {
+      width: 44px;
+    }
+  }
+  .tab-title {
+    font-size: 18px;
+    float: left;
+    padding: 14px 0 0 10px;
+  }
+}
+
+.tab-content {
+  float: left;
+  width: 100%;
+}
+.active img {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
